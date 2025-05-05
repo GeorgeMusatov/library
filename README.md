@@ -55,27 +55,3 @@ uvicorn app.main:app --reload
 Swagger UI: http://localhost:8000/docs
 
 ReDoc: http://localhost:8000/redoc
-
-🧪 Запуск тестов
-bash
-Copy
-Edit
-pytest
-📁 Структура проекта
-bash
-Copy
-Edit
-.
-├── app/
-│   ├── main.py
-│   ├── models/
-│   ├── schemas/
-│   ├── routes/
-│   ├── services/
-│   ├── db/
-│   └── core/
-├── tests/
-├── alembic/
-├── .env
-├── requirements.txt
-└── README.md
